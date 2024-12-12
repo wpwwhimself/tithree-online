@@ -1,6 +1,13 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "tithree",
+  "description": "An app for tutors to tally their time spent on tutoring",
+  "version": "1.4.2",
+  "private": false,
+  "author": {
+    "email": "contact@wpww.pl",
+    "name": "Wojciech PrzybyĹ‚a",
+    "url": "http://wpww.pl/"
+  },
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -10,8 +17,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "moment": "^2.30.1",
     "nuxt": "^3.14.1592",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "vuejs-confirm-dialog": "^0.5.2"
   }
 }

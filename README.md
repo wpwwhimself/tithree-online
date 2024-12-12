@@ -1,75 +1,19 @@
-# Nuxt Minimal Starter
+![Tithree Logo](packages/renderer/src/assets/t3_full_color.svg)
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is an app which serves as an aid for a tutor 🧑‍🏫 It tallies how much time ⏰ is spent with students and how much money 💸 is earned based on that.
 
-## Setup
+Made with __Nuxt__ for hosting online, motivated by my beloved 💝
 
-Make sure to install dependencies:
+## Features
+- 🧑‍🎓 managing student data
+- ✏️ writing sessions' duration and value
+- 📈 tallying money and time, and neat plots
+- ⚙️ customisable colors
+- 📅 Google Calendar integration (limited but working!)
 
-```bash
-# npm
-npm install
+## Screenshots
+//todo fill out
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Dev things
+- `bun run dev` - start development version
+- `bun run build` - build

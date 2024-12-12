@@ -1,0 +1,42 @@
+<script setup lang="ts">
+import { name, version } from "../package.json";
+</script>
+
+<template>
+  <footer class="flex-right v-center">
+    <div id="app-info" class="flex-right">
+      <router-link to="/about">
+        <h2>{{ name }}</h2>
+      </router-link>
+      <p>Made by <a href="http://wpww.pl/" target="_blank">Wojciech Przybyła</a></p>
+      <p class="ghost">Wersja {{ version }}</p>
+    </div>
+    <!-- <router-link to="/"> -->
+      <img src="~/assets/t3_color.svg" :alt="name" />
+    <!-- </router-link> -->
+  </footer>
+</template>
+
+<style scoped>
+footer{
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
+  flex-shrink: 0;
+  padding: 0 1em;
+  height: 2em;
+}
+h2, p{
+  margin: 0;
+}
+h2, img{
+  --height: 1.1em;
+  font-size: var(--height);
+  height: var(--height);
+}
+
+#app-info{
+  align-items: baseline;
+}
+</style>
